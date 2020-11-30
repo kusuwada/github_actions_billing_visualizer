@@ -1,0 +1,16 @@
+# repo:
+#   workflow: [action_coeff, storage coeff]
+
+rabbit:
+  rabbit-test.yml: [2,0]
+panda:
+  panda-ci.yml: [3,3]
+  panda-test.yml: [0,10]
+cat-dog:
+  cat-sample.yml: [1,2]
+  dog-sample.yml: [3,0]
+camel:
+  camel-test.yml: [4,0]
+elephant: 
+  elephant-main.yml: [5,8]
+  elephant-cd.yml: [2,6]
