@@ -2,6 +2,20 @@
 
 Visualize github actions billing and calc billing distribution for each repository.
 
+## Demo
+
+Graph of Cost by Repository. 
+
+<img src="https://github.com/kusuwada/github_actions_billing_visualizer/raw/image/image/repository.png" width="400">
+
+Daily Cost graph for each repository
+
+<img src="https://github.com/kusuwada/github_actions_billing_visualizer/raw/image/image/date.png" width="400">
+
+Cost graph per repository/workflow
+
+<img src="https://github.com/kusuwada/github_actions_billing_visualizer/raw/image/image/workflow.png" width="400">
+
 ## Usage
 
 ### Prepare Billing csv for GitHub Actions
