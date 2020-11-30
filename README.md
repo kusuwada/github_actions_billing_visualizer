@@ -12,7 +12,7 @@ See below and get your Organization or Enterprize Billing csv.
 or, create sample csv.
 
 ```
-$ git clone *
+$ git clone git@github.com:kusuwada/github_actions_billing_visualizer.git
 $ cd github_actions_billing_visualizer
 $ pip install -r requirements.txt
 $ python generate_sample.py {output_filename.csv} {target month YYYY/M}
@@ -21,7 +21,7 @@ $ python generate_sample.py {output_filename.csv} {target month YYYY/M}
 ### Generate graphs and calculate Billing distribution
 
 ```
-$ git clone *
+$ git clone git@github.com:kusuwada/github_actions_billing_visualizer.git
 $ cd github_actions_billing_visualizer
 $ pip install -r requirements.txt
 $ python github_actions_cost_viewer.py {target_filename.csv} {target month YYYY/M}
