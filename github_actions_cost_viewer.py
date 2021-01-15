@@ -137,8 +137,8 @@ if __name__ == '__main__':
         row_dict = {}
         for i,item in enumerate(row):
             if titles[i] == 'Date':  # for sort
-                if item.startswith(args.month):
-                    item = str(datetime.strptime(item, '%Y/%m/%d'))[5:10]
+                if item.startswith(args.month.replace('/', '-')):
+                    item = str(datetime.strptime(item, '%Y-%m-%d'))[5:10]
                 else:
                     is_target = False
             if titles[i] == 'Repository Slug':  # for shorten
